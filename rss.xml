@@ -12,7 +12,7 @@
 <link>https://sudodoas.github.io/blog/articles/builderVsHtml.html</link>
 <guid>https://sudodoas.github.io/blog/articles/builderVsHtml.html</guid>
 <pubDate>Sun 6 Sep 2020</pubDate>
-<description>A brief comparison between website builders and HTML</description>
+<description>A brief comparison between website builders and HTML
 		<p>
 		There are two main options to choose from when choosing how to build your website:
 		<strong>HTML</strong> or <strong>website builder</strong>. The option you choose will affect the amount of time you site 
@@ -37,7 +37,8 @@
 		<p>
         At the end of the day, you are free to choose which method you will use to make your website. Use this page as a guideline to help you 
         choose. My opinion is that everyone should learn HTML as it is a useful skill to learn.
-		</p>
+	</p>
+</description>
 </item>
 
 
@@ -47,7 +48,7 @@
 <link>https://sudodoas.github.io/blog/articles/welcomes.html</link>
 <guid>https://sudodoas.github.io/blog/articles/welcomes.html</guid>
 <pubDate>Sat 5 Sep 2020</pubDate>
-<description>Welcome to my new blog.</description>
+<description>Welcome to my new blog.
 <p>Welcome to my new blog. I do not currently know what I will be blogging about.
 	I will try and start an RSS feed. Please feel free to e-mail me at <strong>libretiger@protonmail.com</strong>
 	with any comments or concerns. I will try to base my blogs on educational content.
@@ -56,6 +57,7 @@
 <p>
   "My only agenda is love, fam." - Matthew Bedser
 </p>
+</description>
 </item>
 
 
