@@ -13,11 +13,13 @@
 <guid>https://sudodoas.github.io/blog/articles/builderVsHtml.html</guid>
 <pubDate>Sun 6 Sep 2020</pubDate>
 <description>A brief comparison between website builders and HTML
+		[COLOR="Red"]<![CDATA[ [/COLOR]
 		<p>
 		There are two main options to choose from when choosing how to build your website:
 		<strong>HTML</strong> or <strong>website builder</strong>. The option you choose will affect the amount of time you site 
 		takes to make and the amount of customizability that you have over your site.
-		</p><p>
+		</p>
+		<p>
         When building a website with HTML, one has to manually type out all of the elements that they will use in their site.
         This takes a lot of <strong>time</strong> which will be a hindrance if the site has a specific deadline. Website builders enable you to 
         launch a working website in a couple of hours or even less than an hour.
@@ -36,7 +38,8 @@
 		<p>
         At the end of the day, you are free to choose which method you will use to make your website. Use this page as a guideline to help you 
         choose. My opinion is that everyone should learn HTML as it is a useful skill to learn.
-	</p>
+		</p>
+		[COLOR="Red"]]]>[/COLOR]
 </description>
 </item>
 
@@ -48,14 +51,16 @@
 <guid>https://sudodoas.github.io/blog/articles/welcomes.html</guid>
 <pubDate>Sat 5 Sep 2020</pubDate>
 <description>Welcome to my new blog.
-<p>Welcome to my new blog. I do not currently know what I will be blogging about.
-	I will try and start an RSS feed. Please feel free to e-mail me at <strong>libretiger@protonmail.com</strong>
-	with any comments or concerns. I will try to base my blogs on educational content.
-	Do not spam my e-mail and please be respectful
-</p>
-<p>
-  "My only agenda is love, fam." - Matthew Bedser
-</p>
+		[COLOR="Red"]<![CDATA[ [/COLOR]
+		<p>Welcome to my new blog. I do not currently know what I will be blogging about.
+			I will try and start an RSS feed. Please feel free to e-mail me at <strong>libretiger@protonmail.com</strong>
+			with any comments or concerns. I will try to base my blogs on educational content.
+			Do not spam my e-mail and please be respectful
+		</p>
+		<p>
+		  "My only agenda is love, fam." - Matthew Bedser
+		</p>
+		[COLOR="Red"]]]>[/COLOR]
 </description>
 </item>
 
