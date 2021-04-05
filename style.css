@@ -1,0 +1,74 @@
+/*gruvbox theme*/
+::selection
+{
+    /*background-color: #504945;*/
+    /*background-color: #000;*/
+}
+
+body
+{
+    background-color: #282828;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+    font-family: 'Roboto', sans-serif;
+    color: #fb4934;
+    font-size: 30px;
+    font-weight: 300
+}
+
+h2
+{
+    font-family: 'Roboto', sans-serif;
+    color: #fabd2f;
+    font-size: 20px;
+    font-weight: 300
+}
+
+a
+{
+    font-family: 'Roboto', sans-serif;
+    color: #8ec07c;
+    font-size: 19px;
+    font-weight: 300;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover
+{
+    background-color: #3c3836;
+}
+
+.block
+{
+    background-color: #3c3836;
+    width: 9%;
+    height: 39px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.block:hover
+{
+  background-color: #fabd2f;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    color: #8ec07c;
+    font-size: 19px;
+    font-weight: 300;
+    display: inline;
+    text-decoration: none;
+}
+
+trees
+{
+  color: #fe8019;
+}
+

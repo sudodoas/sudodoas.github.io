@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>LibreTiger Blog</title>
+<link>libretiger.github.io</link>
+<description>The best blog on the block</description>
+
+
+
+<item>
+<title>Website builder vs HTML</title>
+<link>libretiger.github.io/blog/articles/builderVsHtml.html</link>
+<guid>libretiger.github.io/blog/articles/builderVsHtml.html</guid>
+<pubDate>Sun 6 Sep 2020</pubDate>
+<description>A brief comparison between website builders and HTML</description>
+</item>
+
+
+<item>
+<title>My first blog</title>
+<link>libretiger.github.io/blog/articles/welcomes.html</link>
+<guid>libretiger.github.io/blog/articles/welcomes.html</guid>
+<pubDate>Sat 5 Sep 2020</pubDate>
+<description>Welcome to my new blog.</description>
+</item>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Spartan:100,400,700&display=swap" rel="stylesheet">
+	<link rel="icon" type="icon" href="/home/wifiengine/Desktop/[code]/SEARCH ENGINE/icon.png">
+	<title>Sharingan Search</title>
+	<link rel="icon" href="img/sasukesharingan.svg">
+	<style type="text/css">
+		body {
+			margin: 0px;
+		}
+		#textarea {
+			background-color: white;
+			color: #000000;
+			border: 1px solid black;
+			margin: 3px;
+			height: 45px;
+			font-size: 45px;
+			font-weight: 400;
+			font-family: spartan;
+			display: block;
+		}
+		#sharingan {
+			display: block;
+            margin-top: 5%
+		}
+
+		@keyframes turn {
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		}
+
+		.links:hover {
+			
+			height: 105px;
+		}
+		.links {
+			border: 2px solid #282828;
+		}
+	</style>
+</head>
+<body>
+<!-- <textarea rows="20" cols="1" id="user">></textarea><textarea rows="20" cols="100" id="textarea"></textarea> -->
+
+<center>
+	<img src="img/sasukesharingan.svg" alt="Sharingan" id="sharingan">
+	<input type="text" id="textarea">
+	<br>
+	<img src="img/ytlogo.jpeg" alt="" height="100" class="links" id="ytlogo">
+	<img src="img/fblogo.gif" alt="" height="100" class="links" id="fblogo">
+	<img src="img/kvlogo.png" alt="" height="100" class="links" id="kvlogo">
+
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		//variables
+		var user = document.getElementById("user");
+		var textarea = document.getElementById("textarea");
+		var sharingan = document.getElementById("sharingan");
+		var ytlogo = document.getElementById("ytlogo");
+		var fblogo = document.getElementById("fblogo");
+		var kvlogo = document.getElementById("kvlogo");
+		
+		//when the window starts up
+		window.onload = function() {
+			textarea.focus();
+			textarea.style.fontSize = "20px";
+			textarea.style.color = "#000000";
+			textarea.width = window.innerWidth;
+			textarea.height = window.innerHeight;
+
+			
+		};
+
+		//rotate the sharingan when it is clicked
+		sharingan.onclick = function() {
+			sharingan.style.animation = "turn 1s ease-in-out";
+		}
+
+		window.addEventListener("keypress",function(event) {
+			if(event.keyCode == 13) {
+
+				//sharingan animation
+				sharingan.style.animation = "turn 1s ease-in-out";
+
+				//redirect to youtube
+				if(textarea.value == "yt") {
+					window.location = "http://youtube.com";
+				}
+				//URL search
+				else if(textarea.value.slice(-4) == ".com" ||
+						textarea.value.slice(-6) == ".co.za" ||
+						textarea.value.slice(-4) == ".org" ||
+						textarea.value.slice(-5) == ".html") {
+					window.location = "http://" + textarea.value;
+				}
+				//search on youtube
+				else if(textarea.value.slice(0, 3) == "yt ") {
+					var yt = textarea.value.slice(3, 100);
+					window.location = "https://www.youtube.com/results?search_query=" + yt;
+				}
+				//search defenition on merriam-webster
+				else if(textarea.value.slice(0, 4) == "def ") {
+					var defenition = textarea.value.slice(4, 100);
+					window.location = "https://www.merriam-webster.com/dictionary/" + defenition;
+				}
+				//search wikipedia
+				else if(textarea.value.slice(0, 5) == "wiki ") {
+					var wiki = textarea.value.slice(5, 100);
+					window.location = "https://en.wikipedia.org/wiki/" + wiki;
+				}
+				//search for a synonym
+				else if(textarea.value.slice(0, 4) == "syn ") {
+					var syn = textarea.value.slice(4, 100);
+					window.location = "https://www.thesaurus.com/browse/" + syn;
+				}								
+				//search for a antonym
+				else if(textarea.value.slice(0, 4) == "ant ") {
+					var ant = textarea.value.slice(4, 100);
+					window.location = "https://www.antonym.com/synonyms/" + ant;
+				}
+				//go to stack overflow
+				else if(textarea.value.slice(0, 2) == "so") {
+					var so = textarea.value.slice(2, 100);
+					window.location = "https://stackoverflow.com/";
+				}																											
+				//help
+				else if(textarea.value == "help") {
+					var conf = alert("help \n yt = youtube \n def = defenition \n wiki = search wikipedia \n syn = synonym \n ant = antonym \n so = stack overflow");
+						
+							
+								textarea.value = "";
+							
+						
+				}
+				//common search
+				else {
+					var search = textarea.value.slice(0, 100)
+					window.location = "http://duckduckgo.com/" + search + "&ia=web";
+				}
+				
+			
+			}	
+			});
+
+
+			//quick links
+			ytlogo.onclick = function() {
+				window.location = "https://www.youtube.com";
+				sharingan.style.animation = "turn 1s ease-in-out";
+			}
+
+			fblogo.onclick = function() {
+				window.location = "https://www.facebook.com";
+				sharingan.style.animation = "turn 1s ease-in-out";
+			}
+
+			kvlogo.onclick = function() {
+				window.location = "https://keepvid.works/";
+				sharingan.style.animation = "turn 1s ease-in-out";
+			}
+
+
+	</script>
+</body>
+</html>
