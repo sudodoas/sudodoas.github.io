@@ -27,6 +27,15 @@ h2
     font-weight: 300
 }
 
+h3
+{
+    font-family: 'Roboto', sans-serif;
+    color: #fabd2f;
+    font-size: 17px;
+    font-weight: 300
+}
+
+
 a
 {
     font-family: 'Roboto', sans-serif;
@@ -72,3 +81,10 @@ trees
   color: #fe8019;
 }
 
+pre
+{
+    color: #fabd2f;
+    font-size: 20px;
+    font-weight: 600;
+	margin-left: -20%;
+}
