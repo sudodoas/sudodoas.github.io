@@ -17,6 +17,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 
+
 //get mouse coordinates
 window.addEventListener("mousemove", function (event) {
   mouseX = event.clientX;
