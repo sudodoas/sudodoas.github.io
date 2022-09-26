@@ -2,54 +2,64 @@
 ::selection
 {
     /*background-color: #504945;*/
-    /*background-color: #000;*/
+    background-color: #000000;
+	color: #ffffff;
 }
 
 body
 {
-    background-color: #282828;
+    background-color: #baffe4;
     font-family: 'Roboto', sans-serif;
+	margin: 0;
+	display: block;
 }
 
 h1
 {
+	margin: 0px;
+	padding: 7px;
     font-family: 'Roboto', sans-serif;
     color: #fb4934;
+	background-color: #000000;
     font-size: 30px;
     font-weight: 300
+	display: block;
+	overflow: hidden;
 }
 
 h2
 {
     font-family: 'Roboto', sans-serif;
-    color: #fabd2f;
+    color: #995599;
     font-size: 20px;
-    font-weight: 300
+    font-weight: 500
 }
 
 h3
 {
     font-family: 'Roboto', sans-serif;
-    color: #fabd2f;
+    color: #855586;
     font-size: 17px;
     font-weight: 300
 }
 
-
-a
+.navLinks
 {
+	overflow: none;
+    padding: 7px;
+	margin: 0px;
     font-family: 'Roboto', sans-serif;
-    color: #8ec07c;
     font-size: 19px;
     font-weight: 300;
     display: inline-block;
     text-decoration: none;
-    padding: 5px;
+    color: #000000;
 }
 
-a:hover
+.navLinks:hover
 {
-    background-color: #3c3836;
+    background-color: #000000;
+	color: #ffffff;
 }
 
 .block
@@ -69,16 +79,19 @@ a:hover
 p
 {
     font-family: 'Roboto', sans-serif;
-    color: #8ec07c;
+    /*color: #118866;*/
+    color: #000000;
     font-size: 19px;
     font-weight: 300;
-    display: inline;
+    display: block;
     text-decoration: none;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 trees
 {
-  color: #fe8019;
+  color: #ff0000;
 }
 
 pre
@@ -87,4 +100,35 @@ pre
     font-size: 20px;
     font-weight: 600;
 	margin-left: -20%;
+}
+
+navbar {
+	background-color: #129997;
+	margin: 0;
+	padding: 0;
+	overflow: none;
+	display: block;
+}
+
+
+.blogListBlog
+{
+	overflow: none;
+    padding: 10px;
+	margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    display: inline-block;
+    text-decoration: none;
+    color: #129997;
+	background-color: #000000;
+	width: 50%;
+	overflow-wrap: break-word;
+}
+
+.blogListBlog:hover
+{
+    background-color: #000000;
+	color: #ffffff;
 }
