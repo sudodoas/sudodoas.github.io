@@ -8,7 +8,7 @@
 body
 {
     background-color: #baffe4;
-    background: url(/home/wifiengine/code/site/img/twinkling_stars.gif);
+    background: url(./img/twinkling_stars.gif);
     background-size: 20%;
     font-family: 'Roboto', sans-serif;
 	margin: 0;
