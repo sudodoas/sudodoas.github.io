@@ -16,7 +16,7 @@ body
 }
 
 html {
-	cursor: url("img/cursor.png"), default;
+	cursor: url("img/icon_new.png"), default;
 }
 
 h1
@@ -122,23 +122,25 @@ navbar {
 {
 	overflow: none;
     padding: 10px;
-	margin: 0px;
+	margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 300;
     display: inline-block;
     text-decoration: none;
     color: #129997;
-	background-color: #000000;
-	width: 50%;
+	background-color: #06040f;
+	width: 80%;
 	overflow-wrap: break-word;
+    text-align: left;
 }
 
 .blogListBlog:hover
 {
-    background-color: #000000;
+    background-color: #06040f;
 	color: #ffffff;
 }
+
 
 section {
     background-color: #021D39;
