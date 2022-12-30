@@ -1,4 +1,3 @@
-/*gruvbox theme*/
 ::selection
 {
     /*background-color: #504945;*/
@@ -9,9 +8,15 @@
 body
 {
     background-color: #baffe4;
+    background: url(/home/wifiengine/code/site/img/twinkling_stars.gif);
+    background-size: 20%;
     font-family: 'Roboto', sans-serif;
 	margin: 0;
 	display: block;
+}
+
+html {
+	cursor: url("img/cursor.png"), default;
 }
 
 h1
@@ -19,8 +24,8 @@ h1
 	margin: 0px;
 	padding: 7px;
     font-family: 'Roboto', sans-serif;
-    color: #fb4934;
-	background-color: #000000;
+    color: #71b1ea;
+	background-color: #030611;
     font-size: 30px;
     font-weight: 300
 	display: block;
@@ -30,17 +35,18 @@ h1
 h2
 {
     font-family: 'Roboto', sans-serif;
-    color: #995599;
+    color: #98b3a7;
     font-size: 20px;
     font-weight: 500
 }
 
 h3
 {
-    font-family: 'Roboto', sans-serif;
-    color: #855586;
+    font-family: 'Monospace', sans-serif;
+    color: #98b3a7;
     font-size: 17px;
-    font-weight: 300
+    font-weight: 300;
+    text-align: center;
 }
 
 .navLinks
@@ -78,20 +84,21 @@ h3
 
 p
 {
-    font-family: 'Roboto', sans-serif;
-    /*color: #118866;*/
-    color: #000000;
-    font-size: 19px;
+    font-family: 'Monospace', sans-serif;
+    color: #a7baf4;
+    /*color: #000000;*/
+    font-size: 15px;
     font-weight: 300;
     display: block;
     text-decoration: none;
+    text-align: left;
 	padding-left: 20%;
 	padding-right: 20%;
 }
 
 trees
 {
-  color: #ff0000;
+  color: #08c6e6;
 }
 
 pre
@@ -131,4 +138,28 @@ navbar {
 {
     background-color: #000000;
 	color: #ffffff;
+}
+
+section {
+    background-color: #021D39;
+    width: 80%;
+    margin: 1rem auto;
+    padding-bottom: 5px;
+}
+
+footer
+{
+    font-family: 'Roboto', sans-serif;
+    color: #908bd0;
+    /*color: #000000;*/
+    font-size: 12px;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+a {
+    color: #938bd0;
 }
