@@ -179,9 +179,10 @@ quote {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width: 500px) {
     p {
        padding: 5% 5%; 
+       font-size: 25px;
     }
 
     section {
