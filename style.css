@@ -170,3 +170,21 @@ footer
 a {
     color: #938bd0;
 }
+
+quote {
+    display: block;
+    padding: 19px 19px;
+    margin: 20px 20px;
+    /*background-color: #000000;*/
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 500px) {
+    p {
+       padding: 5% 5%; 
+    }
+
+    section {
+        width: 95%;
+    }
+}
