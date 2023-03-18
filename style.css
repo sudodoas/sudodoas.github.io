@@ -180,6 +180,12 @@ quote {
 }
 
 @media screen and (max-device-width: 500px) {
+    h1 {
+       font-size: 40px;
+    }
+    h2 {
+       font-size: 30px;
+    }
     p {
        padding: 5% 5%; 
        font-size: 25px;
@@ -187,5 +193,13 @@ quote {
 
     section {
         width: 95%;
+    }
+
+    .blogListBlog {
+        width: 95%;
+        font-size: 27px;
+    }
+
+    a {
     }
 }
