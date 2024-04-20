@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 ::selection
 {
     /*background-color: #504945;*/
@@ -11,7 +13,7 @@ body
     background-color: #baffe4;
     background: url(./img/twinkling_stars.gif);
     background-size: 20%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif, 'Amiri';
 	margin: 0;
 	display: block;
 }
